@@ -1,5 +1,5 @@
 # ggbIOCLI
 https://github.com/Zodiac-Innovations/ggbIOCLI
-Command-line tools for creating, building, and running ggbIO games.
+Command-line distribution for creating ggbIO projects and Apple Xcode projects.
 
-This repository is reserved for the distributable ggbIO command-line tool and its related assets when the tool is implemented.
+The CLI source and `publishclitool.sh` are in [ggbIODevelopment](https://github.com/Zodiac-Innovations/ggbIODevelopment). Publishing places the compiled universal macOS `ggbio` executable here. The [Homebrew tap](https://github.com/Zodiac-Innovations/homebrew-tap) installs it from this repository. The current commands are `ggbio init <Name>`, `ggbio apple create`, and `ggbio apple ide`.
